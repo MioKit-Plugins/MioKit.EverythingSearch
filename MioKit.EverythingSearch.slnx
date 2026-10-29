@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Plugin/">
+    <Project Path="plugin/MioKit.EverythingSearch.csproj" />
+  </Folder>
+  <Folder Name="/Preview/">
+    <Project Path="preview/MioKit.EverythingSearch.Preview.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="tests/MioKit.EverythingSearch.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Publish/" />
+</Solution>

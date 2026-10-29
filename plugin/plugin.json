@@ -1,0 +1,14 @@
+{
+  "metadataVersion": "1.0",
+  "id": "miokit.everything-search",
+  "name": "Everything 搜索",
+  "icon": "Assets/icon.png",
+  "description": "基于 Voidtools Everything 的本机极速文件搜索插件。借助 Everything 索引，按分类作用域毫秒级检索本机文件名，不占用全局并行搜索。\n\n## 功能\n\n- 分类作用域：全部文件、文件夹、音频、视频、可执行文件、文档、压缩包、图片\n- 结果展示类型图标，回车可在资源管理器中打开文件、打开文件夹或定位所在目录\n- Everything 未运行时给出明确提示\n\n## 前置条件\n\n- 已安装并运行 [Everything](https://www.voidtools.com/)\n\n## 供其他插件调用\n\n通过版本化插件方法调用公开 `everything.status` 和 `everything.search`，其他插件可共享同一个搜索通道；搜索参数使用原生 Everything 查询语法。\n\n## 触发词\n\n输入触发词后按宿主配置的 command 触发键附着，再输入关键字搜索；也可在搜索框输入 `/` 从作用域列表中选择。\n\n| Command | 范围 |\n| --- | --- |\n| `everything-search` | 全部文件与文件夹 |\n| `folder-search` | 仅文件夹 |\n| `audio-search` | 音频 |\n| `video-search` | 视频 |\n| `exe-search` | 可执行文件与脚本 |\n| `doc-search` | 文档 |\n| `archive-search` | 压缩包 |\n| `image-search` | 图片 |",
+  "category": "Tools",
+  "author": "tinyisle",
+  "website": "https://www.tinyisle.cn/plugins/everything",
+  "assembly": "MioKit.EverythingSearch.dll",
+  "minSdkVersion": "1.2.0",
+  "minHostVersion": "1.0.0",
+  "dependencies": []
+}
