@@ -2,8 +2,6 @@
 
 基于 [Voidtools Everything](https://www.voidtools.com/) 的本机极速文件搜索插件。借助 Everything 索引，在 MioKit 搜索框中按分类作用域毫秒级检索文件名，不占用全局并行搜索。
 
-插件 ID：`miokit.everything-search`。程序集：`MioKit.EverythingSearch.dll`。
-
 ## 前置条件
 
 - Windows
